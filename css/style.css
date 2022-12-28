@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background: black;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+header {
+  background: #333;
+  display: flex;
+  justify-content: space-around;
+}
+header h1 {
+  margin: 0;
+  width: 40%;
+}
+header nav {
+  width: 50%;
+  margin: 0 5%;
+}
+header ul {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+header ul a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
