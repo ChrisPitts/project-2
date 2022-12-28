@@ -1,0 +1,3 @@
+As a mobile user, I want to have a verticle navbar so that I can see all of the options.
+As a photo editor, I want to look up gifs so I can find something to edit.
+As a image searcher, I want to expand my search so that I can see many options.
