@@ -35,3 +35,12 @@ header{
         }
     }
 }
+
+#photo-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    img{
+        margin: 10px;
+    }
+}

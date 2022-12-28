@@ -30,4 +30,13 @@ header ul {
 header ul a {
   text-decoration: none;
   color: white;
+}
+
+#photo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#photo-container img {
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
