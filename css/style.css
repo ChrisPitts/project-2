@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Gemstone");
 body {
   background: black;
   margin: 0;
@@ -15,6 +16,8 @@ header {
 header h1 {
   margin: 0;
   width: 40%;
+  font-family: "Rubik Gemstones", cursive;
+  color: yellow;
 }
 header nav {
   width: 50%;

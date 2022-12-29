@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery-3.6.3.js"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+
     <title>Giphy Search API</title>
 </head>
 <body>
@@ -20,7 +26,7 @@
     </header>
 
     <div>
-        <input type="text"><button>Submit</button>
+        <input type="text" id="search-input"><button onclick="searchButtonClicked()">Search</button>
     </div>
     <div id="photo-container"></div>
     <script src="js/main.js"></script>
