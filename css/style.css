@@ -56,4 +56,14 @@ header ul a {
 }
 .grid div img {
   max-width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    flex-direction: column;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 1.75em;
+  }
 }/*# sourceMappingURL=style.css.map */
