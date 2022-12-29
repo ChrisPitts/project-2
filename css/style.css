@@ -66,4 +66,12 @@ header ul a {
     width: 100%;
     font-size: 1.75em;
   }
+  header nav {
+    width: 100%;
+    margin: 0;
+  }
+  header ul {
+    display: block;
+    padding: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
