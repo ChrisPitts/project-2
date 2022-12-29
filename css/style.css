@@ -35,11 +35,25 @@ header ul a {
   color: white;
 }
 
-#photo-container {
+#photo-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-#photo-container img {
+.grid div {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  height: 20%;
   margin: 10px;
+  height: 100%;
+}
+.grid div img {
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
