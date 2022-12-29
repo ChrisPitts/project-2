@@ -3,7 +3,7 @@ var api_key = "x3Ip9aCOKp7hWVkDKBWBSOvGeKE1MmrZ";
 function searchButtonClicked(){
     $("#photo-container").html(""); // clear the images in the container
 
-    let limit = 20; // limit for how many images will show on the page 
+    let limit = $("#limit-input").val(); // limit for how many images will show on the page 
     let search = $("#search-input").val();
 
     $.ajax({
