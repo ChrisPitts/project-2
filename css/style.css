@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Gemstone");
 body {
-  background: black;
+  background: rgb(8, 2, 6);
   margin: 0;
   box-sizing: border-box;
   color: white;
@@ -9,9 +9,10 @@ body {
 }
 
 header {
-  background: #333;
+  background: rgb(29, 4, 29);
   display: flex;
   justify-content: space-around;
+  padding: 10px 0;
 }
 header h1 {
   margin: 0;
@@ -33,6 +34,10 @@ header ul {
 header ul a {
   text-decoration: none;
   color: white;
+}
+
+.field-container {
+  margin: 20px 0;
 }
 
 #photo-container div {
@@ -73,6 +78,9 @@ header ul a {
   header ul {
     display: block;
     padding: 0;
+  }
+  header li {
+    margin: 5px 0;
   }
   .grid div {
     width: 100%;

@@ -2,10 +2,11 @@
 
 $font-color-default: white;
 
-$nav-background-color: #333;
+$background-color: rgb(8, 2, 6);
+$nav-background-color: rgb(29, 4, 29);
 
 body{
-    background: black;
+    background: $background-color;
     margin: 0;
     box-sizing: border-box;
     color: $font-color-default;
@@ -17,6 +18,7 @@ header{
     background: $nav-background-color;
     display: flex;
     justify-content: space-around;
+    padding: 10px 0;
     h1{
         margin: 0;
         width: 40%;
@@ -33,12 +35,16 @@ header{
         display: flex;
         justify-content: space-around;
         list-style: none;
+
+
         a{
             text-decoration: none;
             color: $font-color-default;
         }
     }
 }
+
+.field-container{ margin: 20px 0;}
 
 #photo-container{
 
@@ -77,6 +83,7 @@ header{
         }
         nav{width: 100%; margin:0;}
         ul{display: block; padding:0;}
+        li{margin: 5px 0;}
     }
 
     .grid div{width: 100%;}
