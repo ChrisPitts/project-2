@@ -39,6 +39,23 @@ header ul a {
 .field-container {
   margin: 20px 0;
 }
+.field-container input {
+  height: 2em;
+}
+
+button {
+  background: linear-gradient(yellow, rgb(83, 83, 2));
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 8px;
+  color: rgb(29, 4, 29);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(rgb(83, 83, 2), yellow);
+}
 
 #photo-container div {
   display: flex;
